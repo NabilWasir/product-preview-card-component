@@ -170,13 +170,19 @@ body {
   transition: 1s;
 }
 
+footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
 .attribution {
-  position: absolute;
-  bottom: -45px;
-  line-height: 25px;
-  margin: 0 60px;
-  font-size: 1rem;
-  text-align: center;
+    color: darkblue;
+}
+
+.attribution a {
+    color: rgb(255, 152, 9);
 }
 
 @media screen and (min-width: 1024px) {
@@ -184,8 +190,4 @@ body {
     bottom: 35px;
     font-size: 1.2rem;
   }
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
